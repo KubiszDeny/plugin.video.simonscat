@@ -1,4 +1,5 @@
-# Module: plugin.video.simonscat
+# -*- coding: utf-8 -*-
+# Module: simonscat
 # Author: Deny Kubisz
 # Created on: 12.12.2018
 # License: GPL v.3 https://www.gnu.org/copyleft/gpl.html
@@ -12,8 +13,7 @@ import xbmcplugin
 _url = sys.argv[0]
 _handle = int(sys.argv[1])
 
-VIDEOS = {'SIMON’S CAT Collection': [
-                      {'name': 'SIMON’S CAT – TOP 10 EPISODE COUNTDOWN',
+VIDEOS = {'SIMONS CAT Collection':[{'name': 'SIMON’S CAT – TOP 10 EPISODE COUNTDOWN',
                        'thumb': 'http://deny.g6.cz/yt/getimage.php?videoid=https://youtu.be/sHWEc-yxfb4&sz=hd',
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/sHWEc-yxfb4',
                        'genre': 'Collections'},
@@ -42,7 +42,7 @@ VIDEOS = {'SIMON’S CAT Collection': [
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/XrOjPPUI5T0',
                        'genre': 'Collections'},                   
                       ],
-            'SIMON’S CAT Sketches': [
+            'SIMONS CAT Sketches': [
                       {'name': 'SIMON’S CAT SKETCHES – PRIMAL INSTINCT',
                        'thumb': 'http://deny.g6.cz/yt/getimage.php?videoid=https://youtu.be/-sFc6pscbYk&sz=hd',
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/-sFc6pscbYk',
@@ -52,7 +52,7 @@ VIDEOS = {'SIMON’S CAT Collection': [
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/pFy3jZk1Tko',
                        'genre': 'Sketches'},  
                      ],
-            'SIMON’S CAT Logic': [
+            'SIMONS CAT Logic': [
                       {'name': 'SIMON’S CAT LOGIC – CATS ON THE MOVE!',
                        'thumb': 'http://deny.g6.cz/yt/getimage.php?videoid=https://youtu.be/VyjwNFZti8A&sz=hd',
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/VyjwNFZti8A',
@@ -130,7 +130,7 @@ VIDEOS = {'SIMON’S CAT Collection': [
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/lisncxkbHfc',
                        'genre': 'Logic'}, 
                      ],
-            'SIMON’S CAT Guide To': [
+            'SIMONS CAT Guide To': [
                       {'name': 'SIMON’S CAT – A GUIDE TO FRIENDS',
                        'thumb': 'http://deny.g6.cz/yt/getimage.php?videoid=https://youtu.be/jQXrci8h684&sz=hd',
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/jQXrci8h684',
@@ -188,13 +188,13 @@ VIDEOS = {'SIMON’S CAT Collection': [
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/0FFl3UCX3vY',
                        'genre': 'Guide To'}, 
                      ],
-            'SIMON’S CAT Snaps': [
+            'SIMONS CAT Snaps': [
                       {'name': 'JUST LIKE MY CAT EPISODE 1 – SIMON’S CAT SNAPS',
                        'thumb': 'http://deny.g6.cz/yt/getimage.php?videoid=https://youtu.be/MQnaHM86lv0&sz=hd',
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/MQnaHM86lv0',
                        'genre': 'Snaps'}, 
                      ],
-            'SIMON’S CAT Black & White': [
+            'SIMONS CAT Black & White': [
                       {'name': 'SIMON’S CAT – FESTIVE FEAST (THANKSGIVING SPECIAL)',
                        'thumb': 'http://deny.g6.cz/yt/getimage.php?videoid=https://youtu.be/UFZvaB2iKqc&sz=hd',
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/UFZvaB2iKqc',
@@ -478,7 +478,7 @@ VIDEOS = {'SIMON’S CAT Collection': [
                       {'name': 'SHELF LIFE',
                        'thumb': 'http://deny.g6.cz/yt/getimage.php?videoid=https://youtu.be/3PtFwlKfvHI&sz=hd',
                        'video': 'http://deny.g6.cz/yt/getvideo.php?videoid=https://youtu.be/3PtFwlKfvHI',
-                       'genre': 'Black & White'}, 
+                       'genre': 'Black & White'},
                      ]}
 
 
