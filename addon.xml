@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.simonscat" name="Simon’s cat" version="0.0.1" provider-name="Deny Kubisz">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+        <summary lang="cs_CZ">Simonova kočka</summary>
+        <description lang="cs_CZ">Seriál "Simonova kočka" vykresluje a zveličuje legrační vztah mezi mužem a jeho kočkou.
+        Vytvořeno: Simon Tofield</description>
+        <summary lang="en_GB">Simon's Cat</summary>
+        <description lang="en_GB">Simon's Cat is an animated cartoon and book series by the British animator Simon Tofield featuring a hungry cat who uses increasingly heavy-handed tactics to get his owner to feed him.
+        Created by	Simon Tofield</description>
+        <summary lang="en_US">Simon's Cat</summary>
+        <description lang="en_US">Simon's Cat is an animated cartoon and book series by the British animator Simon Tofield featuring a hungry cat who uses increasingly heavy-handed tactics to get his owner to feed him.
+        Created by	Simon Tofield</description>
+        <language>cs</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website>XXX</website>
+        <email>denykubisz@gmail.com</email>
+        <source>XXX</source>
+        <news>v0.0.1 (12. 12. 2018)
+        - První verze</news>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\kocka1.jpg</screenshot>
+    <screenshot>resources\kocka2.jpg</screenshot>
+    <screenshot>resources\kocka3.jpg</screenshot>    
+  </assets>
+</extension>
+</addon>
