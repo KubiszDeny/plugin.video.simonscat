@@ -12,17 +12,17 @@
         Vytvořeno: Simon Tofield</description>
         <summary lang="en_GB">Simon's Cat</summary>
         <description lang="en_GB">Simon's Cat is an animated cartoon and book series by the British animator Simon Tofield featuring a hungry cat who uses increasingly heavy-handed tactics to get his owner to feed him.
-        Created by	Simon Tofield</description>
+        Created by: Simon Tofield</description>
         <summary lang="en_US">Simon's Cat</summary>
         <description lang="en_US">Simon's Cat is an animated cartoon and book series by the British animator Simon Tofield featuring a hungry cat who uses increasingly heavy-handed tactics to get his owner to feed him.
-        Created by	Simon Tofield</description>
+        Created by: Simon Tofield</description>
         <language>cs</language>
         <platform>all</platform>
         <license>MIT</license>
         <forum></forum>
-        <website>XXX</website>
+        <website>https://github.com/KubiszDeny/plugin.video.simonscat</website>
         <email>denykubisz@gmail.com</email>
-        <source>XXX</source>
+        <source>https://github.com/KubiszDeny/plugin.video.simonscat</source>
         <news>v0.0.1 (12. 12. 2018)
         - První verze</news>
   <assets>
